@@ -15,4 +15,12 @@ function numbers() {
 
 let btn= document.querySelector('[data-btn]')
 btn.addEventListener('click', numbers)
-let view= document.querySelector('[data-view]')
+let view= document.querySelector('[data-value]')
+
+let btn1= document.querySelector('[data-btn1]')
+btn1.addEventListener('click', function () {
+    view.value="";
+})
+
+
+
